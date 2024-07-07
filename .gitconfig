@@ -1,0 +1,22 @@
+[user]
+	email = jadonchan02@gmail.com
+	name = Jadon Chan
+[init]
+	defaultBranch = main
+[core]
+	editor = vi
+[alias]
+	last = log -1 HEAD
+	cgl = config --global --list
+	who = ! git config --get user.name && git config --get user.email
+	set = config --global
+	dif = diff
+	unstage = restore --staged
+	st = status
+	sw = switch
+	co = checkout
+	cm = commit
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[pull]
+	rebase = false
