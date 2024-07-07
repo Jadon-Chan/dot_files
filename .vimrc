@@ -68,6 +68,8 @@ endif
 call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
