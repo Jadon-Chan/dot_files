@@ -196,4 +196,6 @@ eval "$(fzf --bash)"
 
 # Set the shell to be like vim
 set -o vi
+
 . "$HOME/.cargo/env"
+
